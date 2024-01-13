@@ -10,12 +10,14 @@ html{
     box-sizing: inherit; /*bu meros olishi psevdo elem.larda*/
     padding: 0;
     margin: 0;
+    list-style: none;
+    text-decoration: none;
 }
 body{
     display: flex;
     flex-direction: column;
     height: 100%;               /*sticky footer qilish uchun*/
-    font-family: "Roboto", "Arial", sans-serif;
+    font-family: "Montserrat","Roboto", "Arial", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     background-color: #fff;
